@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FF34988904085E2789BA8A2F426AEAA147E1EAA7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E0B209C7A4E91C81F6E11778DB7ADBB4E577529E" : 0,
+    "FF34988904085E2789BA8A2F426AEAA147E1EAA7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CC7D3DAD-A445-4AC8-8F14-4A4F38FF4EE5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E0B209C7A4E91C81F6E11778DB7ADBB4E577529E" : "RoundButton\/Chameleon\/",
+    "FF34988904085E2789BA8A2F426AEAA147E1EAA7" : "RoundButton\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RoundButton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RoundButton.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ViccAlexander\/Chameleon",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0B209C7A4E91C81F6E11778DB7ADBB4E577529E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yche276\/RoundButton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF34988904085E2789BA8A2F426AEAA147E1EAA7"
+    }
+  ]
+}

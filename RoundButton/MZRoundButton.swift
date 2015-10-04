@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+import Chameleon
+//#import "Chameleon.h"
+
 class MZRoundButton: UIButton {
     var fillColor:UIColor = UIColor.clearColor()
 
@@ -19,10 +22,6 @@ class MZRoundButton: UIButton {
         tapGesture.cancelsTouchesInView = false
         self.addGestureRecognizer(tapGesture)
 
-//        if(self.frame.size.width != self.frame.size.height){
-//            let rect:CGRect = CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.width)
-//            self.frame = rect
-//        }
         
     }
     
@@ -57,16 +56,7 @@ class MZRoundButton: UIButton {
     
     
     override init(frame: CGRect) {
-//        var newFrame:CGRect = frame sdfasdfasfasfasfas
-        
-//        
-//        
-//        if(frame.size.width != frame.size.height){
-//            newFrame.size.height = frame.size.width
-//        }
-        
         super.init(frame: frame)
-
         self.make()
     }
     
@@ -91,8 +81,7 @@ class MZRoundButton: UIButton {
         animation.duration = 0.2
         self.imageView?.layer.addAnimation(animation, forKey: "bounce")
         
-//        self.imageView
-
+        self.titleLabel?.layer.addAnimation(animation, forKey: "bounce")
     }
     
   

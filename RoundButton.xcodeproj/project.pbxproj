@@ -17,6 +17,10 @@
 		DCB287331BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */; settings = {ASSET_TAGS = (); }; };
 		DCB287341BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */; settings = {ASSET_TAGS = (); }; };
 		DCB287351BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */; settings = {ASSET_TAGS = (); }; };
+		DCE1E2321BC1515E00AE1F2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE1E2311BC1515E00AE1F2F /* QuartzCore.framework */; };
+		DCE1E2341BC1516500AE1F2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE1E2331BC1516500AE1F2F /* CoreGraphics.framework */; };
+		DCE1E23E1BC1522400AE1F2F /* Chameleon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE1E23B1BC1520F00AE1F2F /* Chameleon.framework */; };
+		DCE1E23F1BC1522400AE1F2F /* Chameleon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCE1E23B1BC1520F00AE1F2F /* Chameleon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +38,42 @@
 			remoteGlobalIDString = DCB287001BBD1B14009A8C8E;
 			remoteInfo = RoundButton;
 		};
+		DCE1E23A1BC1520F00AE1F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE1E2351BC1520F00AE1F2F /* Chameleon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 240093F81BB4517400932727;
+			remoteInfo = Chameleon;
+		};
+		DCE1E23C1BC1520F00AE1F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE1E2351BC1520F00AE1F2F /* Chameleon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 247EB8A71BB61EB3009B4904;
+			remoteInfo = ChameleonDemo;
+		};
+		DCE1E2401BC1522400AE1F2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE1E2351BC1520F00AE1F2F /* Chameleon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 240093F71BB4517400932727;
+			remoteInfo = Chameleon;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCE1E2421BC1522400AE1F2F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCE1E23F1BC1522400AE1F2F /* Chameleon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DCB287011BBD1B14009A8C8E /* RoundButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +90,9 @@
 		DCB287241BBD1B14009A8C8E /* RoundButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonUITests.swift; sourceTree = "<group>"; };
 		DCB287261BBD1B14009A8C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZRoundButton.swift; sourceTree = "<group>"; };
+		DCE1E2311BC1515E00AE1F2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCE1E2331BC1516500AE1F2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCE1E2351BC1520F00AE1F2F /* Chameleon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chameleon.xcodeproj; path = Chameleon/Chameleon.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE1E2341BC1516500AE1F2F /* CoreGraphics.framework in Frameworks */,
+				DCE1E2321BC1515E00AE1F2F /* QuartzCore.framework in Frameworks */,
+				DCE1E23E1BC1522400AE1F2F /* Chameleon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +126,8 @@
 		DCB286F81BBD1B14009A8C8E = {
 			isa = PBXGroup;
 			children = (
+				DCE1E2331BC1516500AE1F2F /* CoreGraphics.framework */,
+				DCE1E2311BC1515E00AE1F2F /* QuartzCore.framework */,
 				DCB287031BBD1B14009A8C8E /* RoundButton */,
 				DCB287181BBD1B14009A8C8E /* RoundButtonTests */,
 				DCB287231BBD1B14009A8C8E /* RoundButtonUITests */,
@@ -101,6 +148,7 @@
 		DCB287031BBD1B14009A8C8E /* RoundButton */ = {
 			isa = PBXGroup;
 			children = (
+				DCE1E2351BC1520F00AE1F2F /* Chameleon.xcodeproj */,
 				DCB287041BBD1B14009A8C8E /* AppDelegate.swift */,
 				DCB287061BBD1B14009A8C8E /* ViewController.swift */,
 				DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */,
@@ -130,6 +178,15 @@
 			path = RoundButtonUITests;
 			sourceTree = "<group>";
 		};
+		DCE1E2361BC1520F00AE1F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1E23B1BC1520F00AE1F2F /* Chameleon.framework */,
+				DCE1E23D1BC1520F00AE1F2F /* ChameleonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,10 +197,12 @@
 				DCB286FD1BBD1B14009A8C8E /* Sources */,
 				DCB286FE1BBD1B14009A8C8E /* Frameworks */,
 				DCB286FF1BBD1B14009A8C8E /* Resources */,
+				DCE1E2421BC1522400AE1F2F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DCE1E2411BC1522400AE1F2F /* PBXTargetDependency */,
 			);
 			name = RoundButton;
 			productName = RoundButton;
@@ -219,6 +278,12 @@
 			mainGroup = DCB286F81BBD1B14009A8C8E;
 			productRefGroup = DCB287021BBD1B14009A8C8E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DCE1E2361BC1520F00AE1F2F /* Products */;
+					ProjectRef = DCE1E2351BC1520F00AE1F2F /* Chameleon.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DCB287001BBD1B14009A8C8E /* RoundButton */,
@@ -227,6 +292,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DCE1E23B1BC1520F00AE1F2F /* Chameleon.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Chameleon.framework;
+			remoteRef = DCE1E23A1BC1520F00AE1F2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCE1E23D1BC1520F00AE1F2F /* ChameleonDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ChameleonDemo.app;
+			remoteRef = DCE1E23C1BC1520F00AE1F2F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DCB286FF1BBD1B14009A8C8E /* Resources */ = {
@@ -296,6 +378,11 @@
 			isa = PBXTargetDependency;
 			target = DCB287001BBD1B14009A8C8E /* RoundButton */;
 			targetProxy = DCB287211BBD1B14009A8C8E /* PBXContainerItemProxy */;
+		};
+		DCE1E2411BC1522400AE1F2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chameleon;
+			targetProxy = DCE1E2401BC1522400AE1F2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -404,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RoundButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButton;
@@ -415,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RoundButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButton;
@@ -489,6 +578,7 @@
 				DCB2872B1BBD1B14009A8C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCB2872C1BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +587,7 @@
 				DCB2872E1BBD1B14009A8C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCB2872F1BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +596,7 @@
 				DCB287311BBD1B14009A8C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
