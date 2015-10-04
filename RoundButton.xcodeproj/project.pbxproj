@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB287051BBD1B14009A8C8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287041BBD1B14009A8C8E /* AppDelegate.swift */; };
+		DCB287071BBD1B14009A8C8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287061BBD1B14009A8C8E /* ViewController.swift */; };
+		DCB2870A1BBD1B14009A8C8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB287081BBD1B14009A8C8E /* Main.storyboard */; };
+		DCB2870C1BBD1B14009A8C8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB2870B1BBD1B14009A8C8E /* Assets.xcassets */; };
+		DCB2870F1BBD1B14009A8C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB2870D1BBD1B14009A8C8E /* LaunchScreen.storyboard */; };
+		DCB2871A1BBD1B14009A8C8E /* RoundButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287191BBD1B14009A8C8E /* RoundButtonTests.swift */; };
+		DCB287251BBD1B14009A8C8E /* RoundButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287241BBD1B14009A8C8E /* RoundButtonUITests.swift */; };
+		DCB287331BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */; settings = {ASSET_TAGS = (); }; };
+		DCB287341BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */; settings = {ASSET_TAGS = (); }; };
+		DCB287351BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB287161BBD1B14009A8C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB286F91BBD1B14009A8C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB287001BBD1B14009A8C8E;
+			remoteInfo = RoundButton;
+		};
+		DCB287211BBD1B14009A8C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB286F91BBD1B14009A8C8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB287001BBD1B14009A8C8E;
+			remoteInfo = RoundButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCB287011BBD1B14009A8C8E /* RoundButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB287041BBD1B14009A8C8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCB287061BBD1B14009A8C8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCB287091BBD1B14009A8C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB2870B1BBD1B14009A8C8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB2870E1BBD1B14009A8C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB287101BBD1B14009A8C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB287151BBD1B14009A8C8E /* RoundButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB287191BBD1B14009A8C8E /* RoundButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonTests.swift; sourceTree = "<group>"; };
+		DCB2871B1BBD1B14009A8C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB287201BBD1B14009A8C8E /* RoundButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB287241BBD1B14009A8C8E /* RoundButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonUITests.swift; sourceTree = "<group>"; };
+		DCB287261BBD1B14009A8C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZRoundButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB286FE1BBD1B14009A8C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB287121BBD1B14009A8C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB2871D1BBD1B14009A8C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB286F81BBD1B14009A8C8E = {
+			isa = PBXGroup;
+			children = (
+				DCB287031BBD1B14009A8C8E /* RoundButton */,
+				DCB287181BBD1B14009A8C8E /* RoundButtonTests */,
+				DCB287231BBD1B14009A8C8E /* RoundButtonUITests */,
+				DCB287021BBD1B14009A8C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB287021BBD1B14009A8C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB287011BBD1B14009A8C8E /* RoundButton.app */,
+				DCB287151BBD1B14009A8C8E /* RoundButtonTests.xctest */,
+				DCB287201BBD1B14009A8C8E /* RoundButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB287031BBD1B14009A8C8E /* RoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				DCB287041BBD1B14009A8C8E /* AppDelegate.swift */,
+				DCB287061BBD1B14009A8C8E /* ViewController.swift */,
+				DCB287321BBD1C7B009A8C8E /* MZRoundButton.swift */,
+				DCB287081BBD1B14009A8C8E /* Main.storyboard */,
+				DCB2870B1BBD1B14009A8C8E /* Assets.xcassets */,
+				DCB2870D1BBD1B14009A8C8E /* LaunchScreen.storyboard */,
+				DCB287101BBD1B14009A8C8E /* Info.plist */,
+			);
+			path = RoundButton;
+			sourceTree = "<group>";
+		};
+		DCB287181BBD1B14009A8C8E /* RoundButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB287191BBD1B14009A8C8E /* RoundButtonTests.swift */,
+				DCB2871B1BBD1B14009A8C8E /* Info.plist */,
+			);
+			path = RoundButtonTests;
+			sourceTree = "<group>";
+		};
+		DCB287231BBD1B14009A8C8E /* RoundButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB287241BBD1B14009A8C8E /* RoundButtonUITests.swift */,
+				DCB287261BBD1B14009A8C8E /* Info.plist */,
+			);
+			path = RoundButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB287001BBD1B14009A8C8E /* RoundButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB287291BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButton" */;
+			buildPhases = (
+				DCB286FD1BBD1B14009A8C8E /* Sources */,
+				DCB286FE1BBD1B14009A8C8E /* Frameworks */,
+				DCB286FF1BBD1B14009A8C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundButton;
+			productName = RoundButton;
+			productReference = DCB287011BBD1B14009A8C8E /* RoundButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB287141BBD1B14009A8C8E /* RoundButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB2872C1BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButtonTests" */;
+			buildPhases = (
+				DCB287111BBD1B14009A8C8E /* Sources */,
+				DCB287121BBD1B14009A8C8E /* Frameworks */,
+				DCB287131BBD1B14009A8C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB287171BBD1B14009A8C8E /* PBXTargetDependency */,
+			);
+			name = RoundButtonTests;
+			productName = RoundButtonTests;
+			productReference = DCB287151BBD1B14009A8C8E /* RoundButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCB2871F1BBD1B14009A8C8E /* RoundButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB2872F1BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButtonUITests" */;
+			buildPhases = (
+				DCB2871C1BBD1B14009A8C8E /* Sources */,
+				DCB2871D1BBD1B14009A8C8E /* Frameworks */,
+				DCB2871E1BBD1B14009A8C8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB287221BBD1B14009A8C8E /* PBXTargetDependency */,
+			);
+			name = RoundButtonUITests;
+			productName = RoundButtonUITests;
+			productReference = DCB287201BBD1B14009A8C8E /* RoundButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB286F91BBD1B14009A8C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mt Zendo Inc.";
+				TargetAttributes = {
+					DCB287001BBD1B14009A8C8E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DCB287141BBD1B14009A8C8E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DCB287001BBD1B14009A8C8E;
+					};
+					DCB2871F1BBD1B14009A8C8E = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DCB287001BBD1B14009A8C8E;
+					};
+				};
+			};
+			buildConfigurationList = DCB286FC1BBD1B14009A8C8E /* Build configuration list for PBXProject "RoundButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB286F81BBD1B14009A8C8E;
+			productRefGroup = DCB287021BBD1B14009A8C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB287001BBD1B14009A8C8E /* RoundButton */,
+				DCB287141BBD1B14009A8C8E /* RoundButtonTests */,
+				DCB2871F1BBD1B14009A8C8E /* RoundButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB286FF1BBD1B14009A8C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB2870F1BBD1B14009A8C8E /* LaunchScreen.storyboard in Resources */,
+				DCB2870C1BBD1B14009A8C8E /* Assets.xcassets in Resources */,
+				DCB2870A1BBD1B14009A8C8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB287131BBD1B14009A8C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB2871E1BBD1B14009A8C8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB286FD1BBD1B14009A8C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB287331BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */,
+				DCB287071BBD1B14009A8C8E /* ViewController.swift in Sources */,
+				DCB287051BBD1B14009A8C8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB287111BBD1B14009A8C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB2871A1BBD1B14009A8C8E /* RoundButtonTests.swift in Sources */,
+				DCB287341BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB2871C1BBD1B14009A8C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB287251BBD1B14009A8C8E /* RoundButtonUITests.swift in Sources */,
+				DCB287351BBD1C7B009A8C8E /* MZRoundButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB287171BBD1B14009A8C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB287001BBD1B14009A8C8E /* RoundButton */;
+			targetProxy = DCB287161BBD1B14009A8C8E /* PBXContainerItemProxy */;
+		};
+		DCB287221BBD1B14009A8C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB287001BBD1B14009A8C8E /* RoundButton */;
+			targetProxy = DCB287211BBD1B14009A8C8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB287081BBD1B14009A8C8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB287091BBD1B14009A8C8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB2870D1BBD1B14009A8C8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB2870E1BBD1B14009A8C8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB287271BBD1B14009A8C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB287281BBD1B14009A8C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB2872A1BBD1B14009A8C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoundButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCB2872B1BBD1B14009A8C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoundButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCB2872D1BBD1B14009A8C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoundButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundButton.app/RoundButton";
+			};
+			name = Debug;
+		};
+		DCB2872E1BBD1B14009A8C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoundButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoundButton.app/RoundButton";
+			};
+			name = Release;
+		};
+		DCB287301BBD1B14009A8C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoundButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoundButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCB287311BBD1B14009A8C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoundButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalmt.RoundButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoundButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB286FC1BBD1B14009A8C8E /* Build configuration list for PBXProject "RoundButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB287271BBD1B14009A8C8E /* Debug */,
+				DCB287281BBD1B14009A8C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB287291BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB2872A1BBD1B14009A8C8E /* Debug */,
+				DCB2872B1BBD1B14009A8C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCB2872C1BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB2872D1BBD1B14009A8C8E /* Debug */,
+				DCB2872E1BBD1B14009A8C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCB2872F1BBD1B14009A8C8E /* Build configuration list for PBXNativeTarget "RoundButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB287301BBD1B14009A8C8E /* Debug */,
+				DCB287311BBD1B14009A8C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB286F91BBD1B14009A8C8E /* Project object */;
+}
