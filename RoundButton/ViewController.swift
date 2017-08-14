@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        self.view.backgroundColor = UIColor.whiteColor()
         let rb = MZRoundButton(type: UIButtonType.Custom)
         rb.frame = CGRectMake(100, 400, 100, 100)
         rb.backgroundColor = UIColor.darkGrayColor()
